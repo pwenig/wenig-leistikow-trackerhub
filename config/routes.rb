@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
- root to: "dashboard#index"
+ get '/', to: "dashboard#index"
+  get '/projects', to: "projects#index"
 end
