@@ -1,0 +1,862 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - c6ea5374dcf0742be48c4f9a8604262c
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4b86e52716d5f6bc47b0faed56ca4f6b
+      X-Runtime:
+      - '0.217326'
+      Date:
+      - Wed, 07 May 2014 22:05:43 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 1047448,
+            "kind": "project",
+            "name": "URL Shortner",
+            "version": 57,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-24T06:00:00Z",
+            "created_at": "2014-03-27T19:07:49Z",
+            "updated_at": "2014-03-27T19:07:49Z",
+            "account_id": 622224,
+            "current_iteration_number": 7,
+            "enable_following": true
+          },
+          {
+            "id": 1075514,
+            "kind": "project",
+            "name": "wenig and leistikow's Tracker hub",
+            "version": 13,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T06:00:00Z",
+            "created_at": "2014-05-07T19:13:50Z",
+            "updated_at": "2014-05-07T19:13:50Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
+            "enable_following": true
+          },
+          {
+            "id": 966426,
+            "kind": "project",
+            "name": "gSchoolMarch2014Curriculum",
+            "version": 2370,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-03T07:00:00Z",
+            "created_at": "2013-11-27T22:52:23Z",
+            "updated_at": "2013-12-19T04:01:52Z",
+            "account_id": 598246,
+            "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1068540,
+            "kind": "project",
+            "name": "Paul W Personal Projects",
+            "version": 2,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-03T07:00:00Z",
+            "created_at": "2014-04-27T19:55:16Z",
+            "updated_at": "2014-04-27T19:55:16Z",
+            "account_id": 622224,
+            "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1069192,
+            "kind": "project",
+            "name": "quiet-water's Team CRUD",
+            "version": 260,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-28T07:00:00Z",
+            "created_at": "2014-04-28T17:18:16Z",
+            "updated_at": "2014-04-28T17:25:55Z",
+            "account_id": 622224,
+            "current_iteration_number": 2,
+            "enable_following": true
+          },
+          {
+            "id": 1037360,
+            "kind": "project",
+            "name": "gSchoolScreenHeroRequests",
+            "version": 96,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-17T07:00:00Z",
+            "created_at": "2014-03-14T12:21:20Z",
+            "updated_at": "2014-03-14T12:21:20Z",
+            "account_id": 622224,
+            "current_iteration_number": 8,
+            "enable_following": true
+          },
+          {
+            "id": 1031130,
+            "kind": "project",
+            "name": "students.gschool.it",
+            "version": 174,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": true,
+            "start_time": "2014-03-03T08:00:00Z",
+            "created_at": "2014-03-06T15:20:39Z",
+            "updated_at": "2014-04-27T20:58:33Z",
+            "account_id": 598246,
+            "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1060116,
+            "kind": "project",
+            "name": "Paul W User Authentication",
+            "version": 76,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": true,
+            "atom_enabled": false,
+            "start_time": "2014-04-14T06:00:00Z",
+            "created_at": "2014-04-14T19:55:11Z",
+            "updated_at": "2014-04-14T19:55:11Z",
+            "account_id": 622224,
+            "current_iteration_number": 4,
+            "enable_following": true
+          },
+          {
+            "id": 1047316,
+            "kind": "project",
+            "name": "URL Shortener-Keri Anchor",
+            "version": 63,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": true,
+            "atom_enabled": false,
+            "start_time": "2014-03-24T07:00:00Z",
+            "created_at": "2014-03-27T17:50:26Z",
+            "updated_at": "2014-04-01T22:25:12Z",
+            "account_id": 622224,
+            "current_iteration_number": 7,
+            "enable_following": true
+          }
+        ]
+    http_version: 
+  recorded_at: Wed, 07 May 2014 22:05:43 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1047448/stories
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - c6ea5374dcf0742be48c4f9a8604262c
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '57'
+      X-Tracker-Pagination-Total:
+      - '23'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '23'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 48ac9d4a1ac816547b1cfad9a62f1703
+      X-Runtime:
+      - '0.061776'
+      Date:
+      - Wed, 07 May 2014 22:05:43 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 68391762,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:37:01Z",
+            "accepted_at": "2014-03-27T19:36:59Z",
+            "story_type": "chore",
+            "name": "setup github repo",
+            "description": "https://help.github.com/articles/create-a-repo\n\nPick a person's account to create it under.",
+            "current_state": "accepted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391762",
+            "owner_ids": [
+              1256938
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256938
+          },
+          {
+            "kind": "story",
+            "id": 68391764,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T20:07:12Z",
+            "accepted_at": "2014-03-27T20:07:07Z",
+            "story_type": "chore",
+            "name": "create staging heroku app",
+            "current_state": "accepted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391764",
+            "owner_ids": [
+              1256938
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256938
+          },
+          {
+            "kind": "story",
+            "id": 68391766,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T20:07:22Z",
+            "accepted_at": "2014-03-27T20:07:20Z",
+            "story_type": "chore",
+            "name": "create production heroku app",
+            "current_state": "accepted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391766",
+            "owner_ids": [
+              1256938
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256938
+          },
+          {
+            "kind": "story",
+            "id": 68391760,
+            "created_at": "2014-02-11T07:00:00Z",
+            "updated_at": "2014-03-27T21:41:38Z",
+            "accepted_at": "2014-03-27T21:41:38Z",
+            "story_type": "release",
+            "name": "Mockups",
+            "description": "Mockups:\nhttps://s3.amazonaws.com/gschool-project-assets/mockups.pdf",
+            "current_state": "accepted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391760",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68441688,
+            "created_at": "2014-03-28T14:26:16Z",
+            "updated_at": "2014-03-28T19:39:17Z",
+            "accepted_at": "2014-03-28T19:39:17Z",
+            "story_type": "chore",
+            "name": "Please make the staging and production links clickable in the README.",
+            "description": "This will make it easier for us to open a browser tab to those URLs.",
+            "current_state": "accepted",
+            "requested_by_id": 1234268,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68441688",
+            "owner_ids": [
+              1256938
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256938
+          },
+          {
+            "kind": "story",
+            "id": 68391768,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-31T19:22:49Z",
+            "accepted_at": "2014-03-31T19:22:50Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "user can see homepage with the form",
+            "description": "user goes to the url\nsees a text field w/ explanatory placeholder text\nsees a \"shorten\" button",
+            "current_state": "accepted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391768",
+            "owner_ids": [
+              1256938
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256938
+          },
+          {
+            "kind": "story",
+            "id": 68391770,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-04-01T20:58:28Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "user can shorten a url",
+            "description": "user goes to homepage\nfills in the shortener field\nclicks \"shorten\"\nsees both the original url and the shortened url\n\nThe shortened URL should be the id of the URL, starting at 1.",
+            "current_state": "delivered",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391770",
+            "owner_ids": [
+              1256938,
+              1295990
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256938
+          },
+          {
+            "kind": "story",
+            "id": 68391772,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-04-02T20:32:51Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "user visits a shortened url",
+            "description": "user visits the shortened url\nuser gets redirected to the original url",
+            "current_state": "started",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391772",
+            "owner_ids": [
+              1256938,
+              1256930
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256938
+          },
+          {
+            "kind": "story",
+            "id": 68391774,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:14Z",
+            "story_type": "release",
+            "name": "public alpha",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391774",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391776,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:14Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "user tries to shorten a non-url",
+            "description": "user goes to homepage\nfills in the url box with a string that is not a url\nclicks shorten\nsees an error message",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391776",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391778,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:14Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "user tries to shorten a blank url",
+            "description": "user goes to homepage\ndoes not fill in anything in the box\nclicks shorten\nsees an error message (url cannot be blank)",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391778",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391780,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:14Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "user can easily return to the homepage",
+            "description": "user shortens a url\nfrom the stats page, they can click a link to the homepage",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391780",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391782,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "user sees number of visits for a url",
+            "description": "user visits shortened url with ?stats=true appended\nuser sees state page with a certain number of visits\nuser visits the shortened url\nuser visits shortened url with ?stats=true appended\nuser sees total visits incremented by 1",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391782",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391784,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "user creates vanity url",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391784",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391786,
+            "created_at": "2014-03-27T06:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "User sees error if vanity URL is already taken",
+            "description": "user tries to shorten a taken url\nuser ends up back on index page with error \"URL already taken\"\nurl that they tried to save is displayed to the user\n\nExample:\nUser wants to shorten tutorials.gschool.it using the vanity url gschool. gschool is already taken so an error occurs.",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391786",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391788,
+            "created_at": "2014-03-27T06:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Profanity is filtered out of vanity url",
+            "description": "if user enters in profanity for the vanity url\nan error is shown telling the user that there is profanity in the url\nuser ends up on homepage",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391788",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391790,
+            "created_at": "2014-03-27T06:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Vanity urls can be no longer than 12 characters",
+            "description": "Return an error\n\nPut a note about length restrictions",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391790",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391792,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "story_type": "release",
+            "name": "public beta",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391792",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391794,
+            "created_at": "2014-03-27T06:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Vanity URLs must be all letters",
+            "description": "Return an error for now.\n\nPut in a note about not using numbers.",
+            "current_state": "unstarted",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391794",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391796,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "story_type": "feature",
+            "name": "shortened urls should persist across server restarts",
+            "current_state": "unscheduled",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391796",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391798,
+            "created_at": "2014-02-20T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "story_type": "feature",
+            "name": "External data can be loaded into the URL shortener",
+            "description": "Given a CSV file with data for a URL\nWhen I run a rake task that reads the data from the file\nThen I have those records in my database\n\nThe datafile will look like the following:\nURL1, date person visited shortened URL\nURL2, date person visited shortened URL\nURL1, date person visited shortened URL",
+            "current_state": "unscheduled",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391798",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391800,
+            "created_at": "2014-02-20T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "story_type": "feature",
+            "name": "The URL shortener should implement a new design",
+            "current_state": "unscheduled",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391800",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 68391802,
+            "created_at": "2014-02-07T07:00:00Z",
+            "updated_at": "2014-03-27T19:08:15Z",
+            "story_type": "chore",
+            "name": "setup travis",
+            "current_state": "unscheduled",
+            "requested_by_id": 1256938,
+            "project_id": 1047448,
+            "url": "https://www.pivotaltracker.com/story/show/68391802",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Wed, 07 May 2014 22:05:43 GMT
+recorded_with: VCR 2.9.0
