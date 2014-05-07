@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails wenig-leistikow-trackerhub: development" uuid="09c67dfd-ad10-41ca-a0e7-0773ba361bda">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails wenig-leistikow-trackerhub: test" uuid="0876a55d-12d2-422b-a5d6-ccdf4b206841">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails wenig-leistikow-trackerhub: production" uuid="a75ee539-17bf-4721-91c6-2fbe403122ce">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
