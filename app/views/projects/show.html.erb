@@ -5,4 +5,11 @@
   <% end %>
 </ul>
 
-<hr />
+<hr/>
+
+<h1>Comments</h1>
+<ul>
+  <% @comments.each do |comment| %>
+    <li><%= comment["text"] %></li>
+  <% end %>
+</ul>
