@@ -2,7 +2,7 @@ require 'spec_helper'
 
 feature "View projects" do
   scenario "User view a list of projects" do
-    VCR.use_cassette 'features/projects' do
+    VCR.use_cassette('features/projects') do
       visit ("/")
       click_on "View Projects"
       expect(page).to have_content "URL Shortner"
@@ -12,7 +12,7 @@ feature "View projects" do
   end
 
   scenario "User can see all of the stories in a project" do
-    VCR.use_cassette 'features/projects/url_shortener' do
+    VCR.use_cassette('features/projects/url_shortener') do
       visit ("/")
       click_on "View Projects"
       click_on "URL Shortner"
