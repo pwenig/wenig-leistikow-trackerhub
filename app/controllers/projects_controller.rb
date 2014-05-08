@@ -8,6 +8,7 @@ class ProjectsController < ApplicationController
     story_id = params[:id]
     @stories = TrackerApi.new(ENV['TRACKER_TOKEN']).get_stories(story_id)
     @comments = TrackerApi.new(ENV['TRACKER_TOKEN']).comments(story_id)
+    @github_comments
   end
 
 end

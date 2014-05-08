@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bluevajra:108GitHub1%2A8@api.github.com/repos/pwenig/wenig-leistikow-trackerhub/commits/66581363174e65bd08ecef48cdff04167e3b2373/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 21:15:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4996'
+      X-Ratelimit-Reset:
+      - '1399585272'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"19f381a96c35784a62c1bae5e78e6ba5"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:6B89:CE4812C:536BF3E5
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 62a1303ae95931e56e387e87d354bb24
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/pwenig/wenig-leistikow-trackerhub/comments/6261612","html_url":"https://github.com/pwenig/wenig-leistikow-trackerhub/commit/66581363174e65bd08ecef48cdff04167e3b2373#commitcomment-6261612","id":6261612,"user":{"login":"BlueVajra","id":367068,"avatar_url":"https://avatars.githubusercontent.com/u/367068?","gravatar_id":"aa37c6a873becf44933495e08d7c84f1","url":"https://api.github.com/users/BlueVajra","html_url":"https://github.com/BlueVajra","followers_url":"https://api.github.com/users/BlueVajra/followers","following_url":"https://api.github.com/users/BlueVajra/following{/other_user}","gists_url":"https://api.github.com/users/BlueVajra/gists{/gist_id}","starred_url":"https://api.github.com/users/BlueVajra/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/BlueVajra/subscriptions","organizations_url":"https://api.github.com/users/BlueVajra/orgs","repos_url":"https://api.github.com/users/BlueVajra/repos","events_url":"https://api.github.com/users/BlueVajra/events{/privacy}","received_events_url":"https://api.github.com/users/BlueVajra/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"66581363174e65bd08ecef48cdff04167e3b2373","created_at":"2014-05-08T20:51:23Z","updated_at":"2014-05-08T20:51:23Z","body":"Great
+        job."}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 21:15:17 GMT
+recorded_with: VCR 2.9.0
